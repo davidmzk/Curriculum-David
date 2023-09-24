@@ -39,7 +39,6 @@ section#principal .redes a{
   width: 40px;
   height: 40px;
   line-height: 40px;
-
   margin: 0 5px;
   transition: .4s;
  
@@ -60,7 +59,7 @@ section#principal .especial{
     color: rgb(83, 3, 66);
 }
 
-section#principal .especial2{
+section#principal .parrafomegusta{
     color: #fff;
 }
 
@@ -76,10 +75,10 @@ section#principal p{
 }
 
 section#contenido{
-   background-image: url(./img/fondo4.jpg);
-    
+    /*background-image: url(./img/fondo4.jpg);*/
+    background-color: #1D2939;
     padding-top: calc(20px + 20px);
-    background-color: blue;
+    
     /*height: auto;*/
     margin-top: 0  ;
 }
@@ -99,12 +98,13 @@ section#contenido{
 }
  h1{
     padding-top: 50px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
     text-align: center;
     font-size: 3rem;
-    color: black;
+    color: rgb(255, 250, 250);
 }
     h2{
+        color: rgb(255, 250, 250);
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         font-size: 2rem;
         text-align: center;
@@ -117,7 +117,7 @@ section#contenido {
     align-items: center;
 }
 section#contenido .detalle p{
-    
+    color: rgb(255, 250, 250);
     margin-top: 25px;
     text-align: center;
     font-weight: bold;
@@ -125,7 +125,7 @@ section#contenido .detalle p{
     
 }
 section#contenido .detalle .titulo{
-    color: crimson;
+    color:  #940253;
     font-size: 25px;
 }
 
@@ -143,8 +143,7 @@ section#contenido .detalle h2{
 }
 
 .detalle{
-    background-image: url(./img/fondo1.jpg);
-    border: 5px solid red;
+    background-image: url(./img/fondo21.jpg);
     width: 400px;
     height: 400px;
     margin: 20px;
@@ -152,6 +151,7 @@ section#contenido .detalle h2{
 }
 .detalle img{
 width: 100%;
+height: auto;
 }
 
 
@@ -169,21 +169,24 @@ nav ul{
     justify-content: center;
     list-style: none;
     font-weight: bold;
+
 }
 
 nav ul li{
-    
-    font-size: 25px;
-    border-radius: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 10px 20px;
-    background: linear-gradient(to bottom, #d8f1ae, #ebedf118);;
+transition: .4s;
+font-size: 25px;
+border-radius: 50px;
+margin-left: 20px;
+margin-right: 20px;
+padding: 10px 20px;
+background: linear-gradient(to bottom, #d8f1ae, #ebedf118);
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
 }
 
 nav ul li a{
     text-decoration: none;
-    
+  
 }
 
 
